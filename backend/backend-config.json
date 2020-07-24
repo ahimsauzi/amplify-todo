@@ -1,0 +1,28 @@
+{
+	"api": {
+		"amplifysmall": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "mytododemo",
+							"apiKeyExpirationDays": 3
+						}
+					}
+				}
+			}
+		}
+	},
+	"auth": {
+		"amplifysmallf0237877": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
